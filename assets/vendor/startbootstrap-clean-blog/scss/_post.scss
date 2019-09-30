@@ -40,3 +40,16 @@
     }
   }
 }
+// user-config
+.container .row .post{
+  > h2{
+    margin-bottom: 20px;
+  }
+  >p{
+    text-align: center;
+    > img {
+      width: 850px;
+      height: 500px;
+    }
+  }
+} 
