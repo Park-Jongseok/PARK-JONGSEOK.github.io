@@ -13,7 +13,7 @@ background: '/img/posts/background/vscode.png'
 >`Visual Studio Code`는 마이크로소프트가 Windows, macOS, 리눅스용으로 개발한 소스 코드 편집기입니다.   
 >다양한 디버깅 지원과 Git 제어, 구문 강조 기능 등이 포함되어 있으며, 사용자가 편집기의 테마와 단축키 등을 수정할 수 있습니다.
 
-- Visual Studio Code(이하 VSCode)는 `소스코드 편집 에디터`입니다. `Ruby, PHP, JavaScript, nodeJs, Angular`등 다양한 언어를 지원하고 있으며, `Extenstions`라는 기능을 이용하여, 프로그래밍에 필요한 기능들을 추가하여 사용할 수 있습니다.
+- Visual Studio Code(이하 VSCode)는 `소스 코드 편집 에디터`입니다. `Ruby, PHP, JavaScript, nodeJs, Angular` 등 다양한 언어를 지원하고 있으며, `Extensions`라는 기능을 이용하여, 프로그래밍에 필요한 기능들을 추가하여 사용할 수 있습니다.
 
 ## 2. VSCode 한글화 방법
 - `VSCode`는 기본적으로 영어로 설정되어 있지만, 한글로 변경할 수 있습니다.
@@ -24,7 +24,7 @@ background: '/img/posts/background/vscode.png'
 
  ![trans-language-vscode-2](\img\posts\trans-language-vscode-2.png)
 
-- 화면 왼쪽의 `Extenstions`를 클릭하시거나, `Ctrl + Shift + X`를 입력하여, `Extenstions` 화면으로 이동합니다.
+- 화면 왼쪽의 `Extensions`를 클릭하시거나, `Ctrl + Shift + X`를 입력하여, `Extensions` 화면으로 이동합니다.
 
 - 검색창에 `KOREA`를 입력한 후 `Korea Language Pack for Visual Studio Code`를 클릭하고 `Install` 합니다.
 
