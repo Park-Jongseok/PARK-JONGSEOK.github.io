@@ -5,5 +5,8 @@
 ## Post 작성 방법
  - YYYY-MM-DD-TItLE
 
+## rouge highlight
+ - [rouge docs](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
+
 ## 기동 방법
  - bundle exec jekyll serve
