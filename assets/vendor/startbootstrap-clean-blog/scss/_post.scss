@@ -48,8 +48,9 @@
   >p{
     text-align: center;
     > img {
-      width: 850px;
-      height: 500px;
+      max-width: 100%;
+      width: 1015px;
+      height: auto;
     }
   }
 } 
