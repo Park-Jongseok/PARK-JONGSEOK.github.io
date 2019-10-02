@@ -33,3 +33,5 @@ background: '/img/posts/background/vscode.png'
 - 설치 후 VSCode를 종료시키고, 재실행시키시면 `한글화`가 적용되어 있습니다. 다시 영어로 바꾸고 싶으시면 `보기 - 팔레트` 또는 `Ctrl + Shift + P`를 입력하시고, `configure display language`를 입력합니다.
 
 - 다음으로, 표시 언어 선택 화면에서 `en`을 설정하시고, 다시 실행시키시면, `영어`로 설정이 바뀝니다.
+
+- 그럼 끝!
