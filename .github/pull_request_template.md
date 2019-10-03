@@ -1,4 +1,4 @@
-Closes #1 
+Closes #이슈 번호
 
 <!-- enhancement
 #### Summary
