@@ -5,6 +5,7 @@
 
 ## :black_nib: Post 작성 방법
  - `_posts` 디렉터리에 `YYYY-MM-DD-TITLE.md`형식으로 저장한다.
+ 
     ```
     ---
     layout: post
