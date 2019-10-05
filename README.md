@@ -1,12 +1,27 @@
-## StartBootStrap-Clean-Blog-Jekyll
+## :octocat: StartBootStrap-Clean-Blog-Jekyll
  - [StartBootStrap-Clean-Blog-Jekyll](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll)
- - [Jekyll 가이드](https://jekyllrb-ko.github.io/)
+ - [Jekyll 가이드(한글)](https://jekyllrb-ko.github.io/)
+ - [Jekyll 가이드(영어)](https://jekyllrb.com/)
 
-## Post 작성 방법
- - YYYY-MM-DD-TItLE
+## :black_nib: Post 작성 방법
+ - `_posts` 디렉터리에 `YYYY-MM-DD-TITLE.md`형식으로 저장한다.
+    ```
+    ---
+    layout: post
+    title: "TITLE"
+    subtitle: "SUBTITLE"
+    date: YYYY-MM-SS 00:00:00 -0400
+    background: 'background-path'
+    ---
+    ```
 
-## rouge highlight
+## :rainbow: rouge highlight
  - [rouge docs](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
 
-## 기동 방법
- - bundle exec jekyll serve
+## :sunrise_over_mountains: 이미지
+- Background Image = 9cm * 10cm
+
+## :ab: 폰트
+ - [Google Fonts 한글](https://fonts.google.com/?subset=korean)
+ - [Spoqa-han-sans](https://github.com/spoqa/spoqa-han-sans)
+   - 폰트 : `Spoqa Han Sans`
