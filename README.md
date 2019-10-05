@@ -4,17 +4,9 @@
  - [Jekyll 가이드(영어)](https://jekyllrb.com/)
 
 ## :black_nib: Post 작성 방법
- - `_posts` 디렉터리에 `YYYY-MM-DD-TITLE.md`형식으로 저장한다.
- 
-    ```
-    ---
-    layout: post
-    title: "TITLE"
-    subtitle: "SUBTITLE"
-    date: YYYY-MM-SS 00:00:00 -0400
-    background: 'background-path'
-    ---
-    ```
+```
+ruby makepost -p {파일명}}
+```
 
 ## :rainbow: rouge highlight
  - [rouge docs](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
