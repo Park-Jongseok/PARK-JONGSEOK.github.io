@@ -5,7 +5,7 @@ post_path = "./_posts/"
 background_path = "/img/posts/background/"
 options = {}
 OptionParser.new do |opt|
-    opt.on('-p', '--post_name title') { |o| options[:title] = o }
+    opt.on('-t', '--post_title title') { |o| options[:title] = o }
 end.parse!
 
 begin
@@ -20,6 +20,7 @@ begin
     post.syswrite("\n")
     post.syswrite("## ")
     post.syswrite("\n")
+    post.syswrite("![#{options.fetch(:title)}-1](\\img\\posts\\#{options.fetch(:title)}-1.png)")
     post.close
     puts "File generated"
 rescue => e
