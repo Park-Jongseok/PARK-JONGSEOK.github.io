@@ -41,15 +41,11 @@
   }
 }
 // user-config
-.container .row .post{
-  > h2{
-    margin-bottom: 20px;
-  }
-  >p{
+.container .row .post {
+  > p {
     text-align: center;
     > img {
       max-width: 100%;
-      width: 1015px;
       height: auto;
     }
   }
