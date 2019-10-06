@@ -18,3 +18,10 @@ ruby makepost -p {파일명}}
  - [Google Fonts 한글](https://fonts.google.com/?subset=korean)
  - [Spoqa-han-sans](https://github.com/spoqa/spoqa-han-sans)
    - 폰트 : `Spoqa Han Sans`
+
+## raw
+```
+{% raw %}`{{변수명}}`{% endraw %}
+```
+## 맞춤법 검사
+ - http://speller.cs.pusan.ac.kr/
