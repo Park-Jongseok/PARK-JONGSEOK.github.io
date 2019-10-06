@@ -13,7 +13,7 @@ begin
     post.syswrite("---\n")
     post.syswrite("layout: post\n")
     post.syswrite("title: \"#{options.fetch(:title)}\"\n")
-    post.syswrite("subtitle: \"#{options.fetch(:title)}\"-subtitle\n")
+    post.syswrite("subtitle: \"#{options.fetch(:title)}-subtitle\"\n")
     post.syswrite("date: #{time.strftime('%Y-%m-%d')} #{time.strftime('%H:%M:%S')} #{time.strftime('%z')}\n")
     post.syswrite("background: #{background_path}.png\n")
     post.syswrite("---\n")
