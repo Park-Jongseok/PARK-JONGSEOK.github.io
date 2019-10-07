@@ -5,7 +5,7 @@
 
 ## :black_nib: Post 작성 방법
 ```
-ruby makepost -p {파일명}}
+ruby makepost -p {파일명}
 ```
 
 ## :rainbow: rouge highlight
