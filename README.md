@@ -5,7 +5,7 @@
 
 ## :black_nib: Post 작성 방법
 ```
-ruby makepost -p {파일명}
+makepost -n {파일명} -c {카테고리명}
 ```
 
 ## :rainbow: rouge highlight
@@ -19,9 +19,9 @@ ruby makepost -p {파일명}
  - [Spoqa-han-sans](https://github.com/spoqa/spoqa-han-sans)
    - 폰트 : `Spoqa Han Sans`
 
-## raw
+## :white_check_mark: raw
 ```
 {% raw %}`{{변수명}}`{% endraw %}
 ```
-## 맞춤법 검사
+## :heavy_check_mark: 맞춤법 검사
  - http://speller.cs.pusan.ac.kr/
