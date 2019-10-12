@@ -4,7 +4,7 @@ require 'optparse'
 time = Time.now
 @post_path = "./_posts/"
 @file_path = "./img/posts/"
-background_path = "./img/posts/background/"
+background_path = "/img/posts/background/.png"
 options = {}
 
 ## Optional
@@ -59,7 +59,7 @@ begin
         post.syswrite("categories: [ #{options.fetch(:category)} ]\n")
     end
     post.syswrite("date: #{time.strftime('%Y-%m-%d')} #{time.strftime('%H:%M:%S')} #{time.strftime('%z')}\n")
-    post.syswrite("background: #{background_path}.png\n")
+    post.syswrite("background: #{background_path}\n")
     post.syswrite("---\n")
     post.syswrite("\n## \n")
     post.syswrite("\n![#{file_name}-1](#{@file_path}#{file_name}-1.png)")
