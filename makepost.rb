@@ -63,8 +63,9 @@ begin
     post.syswrite("---\n")
     post.syswrite("\n## \n")
     post.syswrite("\n![#{file_name}-1](#{@file_path}#{file_name}-1.png)")
-    post.close
     puts "File generated"
 rescue => e
     puts e.message
+ensure
+    post.close
 end
