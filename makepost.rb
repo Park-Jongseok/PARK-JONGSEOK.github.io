@@ -3,7 +3,7 @@ require 'optparse'
 ## Variables
 time = Time.now
 @post_path = "./_posts/"
-@file_path = "./img/posts/"
+@file_path = "/img/posts/"
 background_path = "/img/posts/background/.png"
 options = {}
 
