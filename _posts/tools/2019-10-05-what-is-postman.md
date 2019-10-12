@@ -2,6 +2,7 @@
 layout: post
 title: "Postman"
 subtitle: "Postman을 설치와 기본 기능을 사용해본다."
+categories: [tools]
 date: 2019-10-05 13:21:49 +0900
 background: /img/posts/background/postman.png
 ---
@@ -26,23 +27,23 @@ background: /img/posts/background/postman.png
 
 - 저는 홈페이지에서 직접 다운로드하겠습니다.
 
-![what-is-postman-1](\img\posts\what-is-postman-1.png)
+![what-is-postman-1](/img/posts/tools/what-is-postman-1.png)
 
 - 안녕! 포스트맨
 
-![what-is-postman-2](\img\posts\what-is-postman-2.png)
+![what-is-postman-2](/img/posts/tools/what-is-postman-2.png)
 
 - 간단하게 `Google` 아이디로 로그인합니다.
 
-![what-is-postman-3](\img\posts\what-is-postman-3.png)
+![what-is-postman-3](/img/posts/tools/what-is-postman-3.png)
 
 - 화면디자인을 설정하는 화면인데, 밝은 것이 더 좋으니까 `Light theme`와 `Single pane layout`을 선택했습니다.
 
-![what-is-postman-4](\img\posts\what-is-postman-4.png)
+![what-is-postman-4](/img/posts/tools/what-is-postman-4.png)
 
 - 혼자 사용하니까... `Skip for now`를 클릭합니다.
 
-![what-is-postman-5](\img\posts\what-is-postman-5.png)
+![what-is-postman-5](/img/posts/tools/what-is-postman-5.png)
 
 - 메인 화면입니다.  
 
@@ -50,7 +51,7 @@ background: /img/posts/background/postman.png
 
 #### 1) 기본적인 기능
 
-![what-is-postman-6](\img\posts\what-is-postman-6.png)
+![what-is-postman-6](/img/posts/tools/what-is-postman-6.png)
 
 
 - `HTTP 메서드` : `HTTP 메서드`(GET, POST, DELETE, PATCH ...)를 선택할 수 있습니다.
@@ -65,7 +66,7 @@ background: /img/posts/background/postman.png
 
 #### 2) Authorization
 
-![what-is-postman-7](\img\posts\what-is-postman-7.png)
+![what-is-postman-7](/img/posts/tools/what-is-postman-7.png)
 
 - 다양한 인증방식을 선택할 수 있는데, 저는 가장 기본적인 `Basic Auth`방식을 선택했습니다. 
 
@@ -73,11 +74,11 @@ background: /img/posts/background/postman.png
 
 #### 3) Headers
 
-![what-is-postman-8](\img\posts\what-is-postman-8.png)
+![what-is-postman-8](/img/posts/tools/what-is-postman-8.png)
 
 - `Request Header` 정보를 입력하는 곳입니다. 직접 설정한 헤더를 지정하거나, 정의된 헤더들을 사용할 수 있습니다.
 
-![what-is-postman-9](\img\posts\what-is-postman-9.png)
+![what-is-postman-9](/img/posts/tools/what-is-postman-9.png)
 
 - 또한, 헤더를 선택하였을 경우, 그에 해당하는 `Value` 값을 보여줘서 편리합니다!
 
@@ -85,7 +86,7 @@ background: /img/posts/background/postman.png
 
 #### 4) Body
 
-![what-is-postman-10](\img\posts\what-is-postman-10.png)
+![what-is-postman-10](/img/posts/tools/what-is-postman-10.png)
 
 - `Body`를 사용하는 경우, 해당하는 타입을 설정할 수 있습니다.
 
@@ -97,13 +98,13 @@ background: /img/posts/background/postman.png
 
 #### 5) Environments
 
-![what-is-postman-11](\img\posts\what-is-postman-11.png)
+![what-is-postman-11](/img/posts/tools/what-is-postman-11.png)
 
 - 화면 우측 상단의 `톱니바퀴`를 클릭 후, `Manage Environments`에서 환경 설정이 가능합니다.
 
 - 예를 들어서, `test`라는 환경에서 `base`라는 변수에 `localhost:4000`이라는 값을 저장하고 `Add`를 클릭합니다.
 
-![what-is-postman-12](\img\posts\what-is-postman-12.png)
+![what-is-postman-12](/img/posts/tools/what-is-postman-12.png)
 
 - 입력한 변수들은 {% raw %}`{{변수명}}`{% endraw %} 으로 사용할 수 있습니다. URL에 {% raw %}`{{base}}`{% endraw %}를 입력하면, 위의 사진과 같이 `localhost:4000`이 입력되어 있음을 확인할 수 있습니다.
 
@@ -112,4 +113,3 @@ background: /img/posts/background/postman.png
 - 이번 포스트는 기본 기능을 다루기 위한 포스트이므로, 다른 다양한 기능들은 다른 포스트에 작성하겠습니다.
 
 - 그럼 끝!
-

@@ -2,7 +2,8 @@
 layout: post
 title: "Visual Studio Code, 한글화 방법"
 subtitle: "VSCode의 언어를 영어에서 한글로 변경한다."
-date: 2019-09-30 00:00:00 -0400
+categories: [tools]
+date: 2019-09-30 00:00:00 +0900
 background: '/img/posts/background/vscode.png'
 ---
 
@@ -18,17 +19,17 @@ background: '/img/posts/background/vscode.png'
 ## 2. VSCode 한글화 방법
 - `VSCode`는 기본적으로 영어로 설정되어 있지만, 한글로 변경할 수 있습니다.
 
- ![trans-language-vscode-1](\img\posts\trans-language-vscode-1.png)
+ ![trans-language-vscode-1](/img/posts/tools/trans-language-vscode-1.png)
 
 - 저는 버전 `1.38.1`을 사용하고 있습니다.
 
- ![trans-language-vscode-2](\img\posts\trans-language-vscode-2.png)
+ ![trans-language-vscode-2](/img/posts/tools/trans-language-vscode-2.png)
 
 - 화면 왼쪽의 `Extensions`를 클릭하시거나, `Ctrl + Shift + X`를 입력하여, `Extensions` 화면으로 이동합니다.
 
 - 검색창에 `KOREA`를 입력한 후 `Korea Language Pack for Visual Studio Code`를 클릭하고 `Install` 합니다.
 
- ![trans-language-vscode-3](\img\posts\trans-language-vscode-3.png)
+ ![trans-language-vscode-3](/img/posts/tools/trans-language-vscode-3.png)
 
 - 설치 후 VSCode를 종료시키고, 재실행시키시면 `한글화`가 적용되어 있습니다. 다시 영어로 바꾸고 싶으시면 `보기 - 팔레트` 또는 `Ctrl + Shift + P`를 입력하시고, `configure display language`를 입력합니다.
 
