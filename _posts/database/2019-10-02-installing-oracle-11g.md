@@ -2,7 +2,8 @@
 layout: post
 title: "Oracle, 오라클 11g 설치"
 subtitle: "Oracle 11g 버전을 설치한다."
-date: 2019-10-02 00:00:00 -0400
+categories: [database]
+date: 2019-10-02 00:00:00 +0900
 background: '/img/posts/background/oracle.png'
 ---
 
@@ -10,7 +11,7 @@ background: '/img/posts/background/oracle.png'
 
 - [DB-engines.com](https://db-engines.com/en/ranking)에서 `DB 순위`를 확인할 수 있습니다. `2019년 10월 기준`으로는 아래와 같습니다.
 
- ![installing-oracle-11g-1](\img\posts\installing-oracle-11g-1.png)
+ ![installing-oracle-11g-1](/img/posts/database/installing-oracle-11g-1.png)
 
 - `Oracle > MySQL > SQL Server > PostgreSQL > MongoDB` 순서로, 사용해봤던 DB보다 모르는 DB가 더 많습니다...
 
@@ -18,7 +19,7 @@ background: '/img/posts/background/oracle.png'
 
 ## 1. Oracle
 
-- [오라클 데이터베이스](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)의 위키백과 설명입니다.
+- [오라클 데이터베이스](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)의 위키백과 내용입니다.
 
 > 오라클 데이터베이스는 미국 오라클사의 관계형 데이터베이스 관리 시스템의 이름입니다. 현재 Unix 환경에서 가장 널리 사용되는 RDBMS(Relational database management system)입니다.
 
@@ -36,11 +37,11 @@ background: '/img/posts/background/oracle.png'
 
 - 스크롤을 내려 하단의 `Oracle Database 11g Release 2`에서 OS에 맞게 `File 1`과 `File 2` 모두 다운로드합니다.
 
- ![installing-oracle-11g-2](\img\posts\installing-oracle-11g-2.png)
+ ![installing-oracle-11g-2](/img/posts/database/installing-oracle-11g-2.png)
 
 - 물론, 파일 다운로드 하시기 전에 `I accept the Oracle License Agreement` 선택하셔야 다운로드 가능합니다!
 
- ![installing-oracle-11g-4](\img\posts\installing-oracle-11g-4.png)
+ ![installing-oracle-11g-4](/img/posts/database/installing-oracle-11g-4.png)
 
 - 또한, 오라클을 다운로드하기 위해서는 `계정`도 필요하고요!
 
@@ -48,15 +49,15 @@ background: '/img/posts/background/oracle.png'
 
 - 그러니까, 적은 쪽 파일을 많은 쪽에 복사하시면 됩니다.
 
- ![installing-oracle-11g-5](\img\posts\installing-oracle-11g-5.png)
+ ![installing-oracle-11g-5](/img/posts/database/installing-oracle-11g-5.png)
 
 - 복사 후 `setup` 파일을 실행시킵니다. (2010년 3월 12일... 오래도 됐네요)
 
- ![installing-oracle-11g-6](\img\posts\installing-oracle-11g-6.png)
+ ![installing-oracle-11g-6](/img/posts/database/installing-oracle-11g-6.png)
 
 - 안녕 오라클! 
 
-![installing-oracle-11g-7](\img\posts\installing-oracle-11g-7.png)
+![installing-oracle-11g-7](/img/posts/database/installing-oracle-11g-7.png)
 
 - `환경이 최소 요구 사항을 충족하지 않습니다.`라는 경고창이 뜨는데, 그 최소 요구 사항이란 다음과 같습니다.  
 
@@ -66,25 +67,25 @@ background: '/img/posts/background/oracle.png'
 
 - 등 여러 가지 조건이 있는데, 그럼 어떡하나! `무시하고 예`를 클릭하시면 됩니다.
 
-![installing-oracle-11g-8](\img\posts\installing-oracle-11g-8.png)
+![installing-oracle-11g-8](/img/posts/database/installing-oracle-11g-8.png)
 
 - 이메일 주소는 굳이 작성하지 않으셔도 됩니다.
 
-![installing-oracle-11g-9](\img\posts\installing-oracle-11g-9.png)
+![installing-oracle-11g-9](/img/posts/database/installing-oracle-11g-9.png)
 
 - `개인용`으로 사용할 것이기 때문에, 입력하지 않겠습니다. `예` 클릭!
 
-![installing-oracle-11g-10](\img\posts\installing-oracle-11g-10.png)
+![installing-oracle-11g-10](/img/posts/database/installing-oracle-11g-10.png)
 
 - 오라클을 설치하면서, 데이터베이스를 만드실 분은 `데이터베이스 생성 및 구성`을 선택해주세요.
 
 - 소프트웨어만 설치하실 분들은 `데이터베이스 소프트웨어만 설치`를 선택하시면 됩니다.
 
-![installing-oracle-11g-11](\img\posts\installing-oracle-11g-11.png)
+![installing-oracle-11g-11](/img/posts/database/installing-oracle-11g-11.png)
 
 - `환경 구축에 여러 가지 옵션`을 추가하는 경우는 `서버 클래스`를, 단순 `개발용`이라면 데스크톱 클래스를 선택하는 편이 좋습니다.
 
-![installing-oracle-11g-12](\img\posts\installing-oracle-11g-12.png)
+![installing-oracle-11g-12](/img/posts/database/installing-oracle-11g-12.png)
 
 - `Oracle Base` : 설치하는 홈 디렉터리입니다.
 
@@ -96,11 +97,11 @@ background: '/img/posts/background/oracle.png'
 
 - 적당한 비밀번호를 입력 후, 다음을 클릭합니다.
 
-![installing-oracle-11g-13](\img\posts\installing-oracle-11g-13.png)
+![installing-oracle-11g-13](/img/posts/database/installing-oracle-11g-13.png)
 
 - 기본 설치에서 설정한 조건 등 여러 가지 조건에 대해 검사를 합니다. 잠깐 기다려요!
 
-![installing-oracle-11g-14](\img\posts\installing-oracle-11g-14.png)
+![installing-oracle-11g-14](/img/posts/database/installing-oracle-11g-14.png)
 
 - 제품 설치까지 기다리시면 완료입니다.
 

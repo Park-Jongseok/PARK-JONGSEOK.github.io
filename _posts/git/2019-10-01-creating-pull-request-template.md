@@ -2,7 +2,8 @@
 layout: post
 title: "Github, Pull request template"
 subtitle: "Github의 Pull request template를 작성한다."
-date: 2019-10-01 00:00:00 -0400
+categories: [git]
+date: 2019-10-01 00:00:00 +0900
 background: '/img/posts/background/github.png'
 ---
 
@@ -22,11 +23,11 @@ background: '/img/posts/background/github.png'
 
 ## 2. Template 만들기
 
-![creating-pull-request-template-1](\img\posts\creating-pull-request-template-1.png)
+![creating-pull-request-template-1](/img/posts/git/creating-pull-request-template-1.png)
 
 - 템플릿을 만들고 싶은 `repository`에서 `Create new file`을 클릭합니다.
 
-![creating-pull-request-template-2](\img\posts\creating-pull-request-template-2.png)
+![creating-pull-request-template-2](/img/posts/git/creating-pull-request-template-2.png)
 
 - 파일 이름에 예시와 같이 `pull_request_template.md`를 입력합니다.
 
@@ -40,10 +41,10 @@ background: '/img/posts/background/github.png'
 
 - 변경된 내용을 확인하기 위해서, `Pull requests`를 작성해보겠습니다.
 
-![creating-pull-request-template-3](\img\posts\creating-pull-request-template-3.png)
+![creating-pull-request-template-3](/img/posts/git/creating-pull-request-template-3.png)
 
 - `Create pull request`를 클릭하시면, 아래의 사진과 같이 템플릿이 적용된것을 확인할 수 있습니다.
 
-![creating-pull-request-template-4](\img\posts\creating-pull-request-template-4.png)
+![creating-pull-request-template-4](/img/posts/git/creating-pull-request-template-4.png)
 
 - 그럼 끝!

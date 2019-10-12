@@ -2,8 +2,8 @@
 layout: post
 title: "CSV 파일 형식"
 subtitle: "Comma Separated Values에 대해 이해한다."
-date: 2019-10-03 00:00:00 -0400
-background: '/img/posts/What-is-CSV-1.png'
+date: 2019-10-03 00:00:00 +0900
+background: '/img/posts/background/csv.png'
 ---
 
 ## 1. CSV(Comma Separated Values)
@@ -19,7 +19,7 @@ background: '/img/posts/What-is-CSV-1.png'
 
 - 예를 들면, 아래와 같은 형식입니다.
 
- ![What-is-CSV-2](/img/posts/What-is-CSV-2.png)
+ ![what-is-csv-1](/img/posts/unclassified/what-is-csv-1.png)
 
 - 위의 사진을 보면, 문자와 콤마로 구성되어 있으며, 글자 수가 많으면 매우 보기 어렵습니다.
 
