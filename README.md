@@ -25,3 +25,9 @@ makepost -n {파일명} -c {카테고리명}
 ```
 ## :heavy_check_mark: 맞춤법 검사
  - http://speller.cs.pusan.ac.kr/
+
+## :heart_eyes: Emoji
+- [Emoji](https://gist.github.com/rxaviers/7360908)
+
+## :art: Color
+- [pantone](https://www.pantone.com/color-finder#/pick)
