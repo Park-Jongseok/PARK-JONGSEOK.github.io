@@ -2,6 +2,7 @@
 layout: post
 title: "CSV 파일 형식"
 subtitle: "Comma Separated Values에 대해 이해한다."
+categories: [ unclassified ]
 date: 2019-10-03 00:00:00 +0900
 background: '/img/posts/background/csv.png'
 ---
