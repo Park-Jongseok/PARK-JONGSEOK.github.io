@@ -47,7 +47,7 @@ background: /img/posts/background/probot.png
 
 - `delete-merged-branch`가 `Branch`를 삭제시켰습니다!
 
-## 3. Probot 프로젝트
+## 3. Probot 프로젝트 생성
 
 - `Merge`전 `Check List`에 전부 체크가 되어 있지 않다면, `Merge`를 할 수 없도록 막는 `Probot`을 만들어 보겠습니다.
 
@@ -167,3 +167,81 @@ background: /img/posts/background/probot.png
 {% endhighlight %}
 
 - 수정 후, `Check Check bot`을 기동시킵니다.
+
+![create-github-app-with-probot-11](/img/posts/git/create-github-app-with-probot-11.png)
+
+- 다음으로, 애플리케이션을 설치한 `Branch`에서 `Pull Request`를 작성해봅니다.
+
+![create-github-app-with-probot-12](/img/posts/git/create-github-app-with-probot-12.png)
+
+- `All checks have failed`라는 경고 문구가 작성되어 있습니다!
+
+![create-github-app-with-probot-13](/img/posts/git/create-github-app-with-probot-13.png)
+
+- `Check List`의 항목을 모두 체크하니 정상적으로 `Merge` 할 수 있습니다.
+
+![create-github-app-with-probot-14](/img/posts/git/create-github-app-with-probot-14.png)
+
+- `Check Check bot`의 프로젝트에서도 문제 없이 `Web Hook`을 수신했습니다. 혹시 잘 안되시면, 콘솔을 확인하여 오류를 해결해보아요!
+
+## 4. Probot 프로젝트 Deploy
+
+- 지금까지는, `로컬`에서 `Probot`을 적용시켰습니다. 만약, 이 프로젝트를 기동시키지 않으면, 더 이상 `Probot`은 작동하지 않습니다.
+
+- 따라서, 계속해서 `Probot`을 이용하기 위해서는 클라우드 프로바이더를 이용하여 배포를 해야합니다.
+
+- `Glitch`, `Heroku`, `Now`, `GitHub Actions` 등을 이용하여 무료로 배포 할 수 있습니다. 자세한 사항은 [Probot - Deployment](https://probot.github.io/docs/deployment/)를 참고해주세요
+
+- 저는 `Glitch`를 이용하여 배포해보도록 하겠습니다.
+
+- [Create a new app on Glitch](https://glitch.com/edit/#!/new-project)를 클릭하여, 새로운 `Glitch`앱을 생성합니다.
+
+![create-github-app-with-probot-15](/img/posts/git/create-github-app-with-probot-15.png)
+
+- 좌측 상단의 `Sign in`을 클릭하여, 가입을 합니다. 저는 `Sign in With GitHub`를 이용했습니다.
+
+![create-github-app-with-probot-16](/img/posts/git/create-github-app-with-probot-16.png)
+
+- `GitHub Repository`으로 부터 소스 코드를 `Import`하겠습니다.
+
+- 로그인 후, 하단의 `Tools` → `Git, Import, and Export` → `Connect GitHub` → `Import from GitHub`를 클릭하고, `GitHubUser/Repository` 형식으로 `Import`할 수 있습니다.
+
+![create-github-app-with-probot-17](/img/posts/git/create-github-app-with-probot-17.png)
+
+- 잠시기다리시면, 선택한 `Repository`가 `Import`되어 표시됩니다. 저는 `check-check-bot`이 `import` 되었습니다.
+
+![create-github-app-with-probot-18](/img/posts/git/create-github-app-with-probot-18.png)
+
+- 화면 좌측 상단의 `Show` → `In a New Winodws`를 클릭합니다.
+
+- URL의 `/probot`을 제외한 부분을 복사합니다. 저는 `https://check-check-bot.glitch.me`가 되겠네요!
+
+- `GitHub`의 `Settings` → `Developer settings` → `GitHub Apps` → 작성한 `GitHub App`의 `Edit`을 클릭합니다.
+
+![create-github-app-with-probot-19](/img/posts/git/create-github-app-with-probot-19.png)
+
+- `Webhook URL`에 복사한 URL을 붙여넣습니다. `Webhook secret`은 로컬 프로젝트의 `.env`에서 확인할 수 있습니다.
+
+![create-github-app-with-probot-20](/img/posts/git/create-github-app-with-probot-20.png)
+
+- 다시 Glich로 돌아와서 `.env` 파일을 수정합니다. 수정 내용은 [Glitch](https://probot.github.io/docs/deployment/#glitch)를 참고하면 다음과 같습니다.
+
+{% highlight txt linenos%}
+  APP_ID=<your app id>
+  WEBHOOK_SECRET=<your app secret>
+  # PRIVATE_KEY_PATH=./.data/private-key.pem
+  # PRIVATE_KEY=<your app private key>
+  NODE_ENV=production
+{% endhighlight %}
+
+- 로컬 프로젝트의 `APP_ID`, `WEBHOOK_SECRET`를 복사하여 붙여넣습니다.
+
+  - `PRIVATE_KEY_PATH`는 `Glitch Project`에서 `New File`을 클릭하여, `.data/private-key.pem`을 생성하여 `private-key.pem`에 로컬 프로젝트의 `PRIVATE_KEY`를 붙여넣어도 되고, `PRIVATE_KEY`에 직접 붙여넣어도 됩니다.
+
+  - [Glitch](https://probot.github.io/docs/deployment/#glitch)에서는 `.data/private-key.pem`을 사용하도록 되어있습니다.
+
+![create-github-app-with-probot-21](/img/posts/git/create-github-app-with-probot-21.png)
+
+- 잘 작동하는지 확인하기 위해서, `Pull Request`를 확인합니다.
+
+- 그럼 끝!
