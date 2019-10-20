@@ -33,9 +33,9 @@ background: '/img/posts/background/github.png'
 
 - `Pull request`를 할 때마다, 맞춤법 검사를 체크하기 위해서 체크 박스를 템플릿에 추가했습니다.
 
-{% highlight markdown linenos%}
-    -  [ ] 맞춤법 검사
-{% endhighlight %}
+```markdown
+-  [ ] 맞춤법 검사
+```
 
 - 작성 후 하단의 `Commit new file`을 클릭합니다.
 

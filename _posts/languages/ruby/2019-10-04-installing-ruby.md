@@ -66,9 +66,9 @@ background: '/img/posts/background/ruby.png'
 
 - `MSY32` 설치가 끝난 후, 터미널을 실행 시켜 잘 설치되었는지 확인해봅니다.
 
-{% highlight console linenos%}
-    ruby -v
-{% endhighlight %}
+```console
+$ ruby -v
+```
 
 ![installing-ruby-6](/img/posts/languages/ruby/installing-ruby-6.png)
 
