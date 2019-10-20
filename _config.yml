@@ -16,7 +16,6 @@ google_analytics:   UA-137799696-2 # out your google-analytics code
 
 # Build settings
 markdown:  kramdown
-highlighter: rouge
 
 kramdown:
   input: GFM
