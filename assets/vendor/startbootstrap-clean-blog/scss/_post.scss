@@ -42,11 +42,30 @@
 }
 // user-config
 .container .row .post {
+  // img
   > p {
     text-align: center;
     > img {
       max-width: 100%;
       height: auto;
+    }
+  }
+  // Table
+  > table {
+    width: 100%;
+    > thead {
+      color: white;
+      background-color: $table_color;
+      > tr th {
+        border: solid 1px $table_color;
+        border-right-color: #ffffff;
+        font-weight: 400;
+      }
+    }
+    > tbody {
+      > tr td {
+        border: solid 1px $table_color;
+      }
     }
   }
 } 

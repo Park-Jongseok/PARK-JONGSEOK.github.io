@@ -25,17 +25,16 @@ background: /img/posts/background/git.png
 
 - `GIT`이 설치되어 있을지도 모르니까, 아래의 명령어를 입력하여 확인해봅니다.
 
-{% highlight console linenos%}
-    git --version
-{% endhighlight%}
+```console
+$ git --version
+```
 
 - 만약 설치되어 있지만, 버전이 오래되었다면, 아래의 명령어를 입력하여 `Git` 버전을 업데이트 해줍니다.  
   (2019년 10월 기준으로 `2.23.0`이 최신 버전입니다.)
 
-{% highlight console linenos%}
-    git update-git-for-windows
-{% endhighlight%}
-
+```console
+$ git update-git-for-windows
+```
 
 ![installing-and-updating-git-1](/img/posts/git/installing-and-updating-git-1.png)
 
