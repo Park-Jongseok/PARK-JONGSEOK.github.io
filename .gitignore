@@ -3,5 +3,4 @@ _site
 node_modules
 Gemfile.lock
 *.gem
-img/posts/background/Thumbs.db
-img/posts/Thumbs.db
+*Thumbs.db

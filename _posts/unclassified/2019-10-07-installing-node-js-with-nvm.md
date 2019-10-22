@@ -58,3 +58,10 @@ background: '/img/posts/background/nodejs.png'
 - 마지막으로 `node -v`, `npm -v`를 입력하여, `Node.js`와 `npm`의 버전을 확인할 수 있습니다.
 
 - 그럼 끝!
+
+#### 참고
+
+- [Node.js](https://nodejs.org/en/)
+- GitHub
+  - [nvm](https://github.com/nvm-sh/nvm#important-notes)
+  - [nvm-windows](https://github.com/coreybutler/nvm-windows)

@@ -113,3 +113,8 @@ background: /img/posts/background/postman.png
 - 이번 포스트는 기본 기능을 다루기 위한 포스트이므로, 다른 다양한 기능들은 다른 포스트에 작성하겠습니다.
 
 - 그럼 끝!
+
+#### 참고
+
+- [POSTMAN](https://www.getpostman.com/)
+- [Chrome 웹스토어 - POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)

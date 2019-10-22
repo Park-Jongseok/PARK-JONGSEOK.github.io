@@ -3,13 +3,13 @@ layout: post
 title: "Visual Studio Code, 한글화 방법"
 subtitle: "VSCode의 언어를 영어에서 한글로 변경한다."
 categories: [tools]
-date: 2019-09-30 00:00:00 +0900
+date: 2019-09-30 08:00:00 +0900
 background: '/img/posts/background/vscode.png'
 ---
 
 ## 1. Visual Studio Code  
 
-- [Visual Studio Code](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C)의 위키백과 내용입니다.
+- [Visual Studio Code의 위키백과](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C) 내용입니다.
 
 >`Visual Studio Code`는 마이크로소프트가 Windows, macOS, 리눅스용으로 개발한 소스 코드 편집기입니다.   
 >다양한 디버깅 지원과 Git 제어, 구문 강조 기능 등이 포함되어 있으며, 사용자가 편집기의 테마와 단축키 등을 수정할 수 있습니다.
@@ -36,3 +36,7 @@ background: '/img/posts/background/vscode.png'
 - 다음으로, 표시 언어 선택 화면에서 `en`을 설정하시고, 다시 실행시키시면, `영어`로 설정이 바뀝니다.
 
 - 그럼 끝!
+
+#### 참고
+
+- [위키백과 - Visual Studio Code](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C)

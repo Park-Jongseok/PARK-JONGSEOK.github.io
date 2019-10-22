@@ -9,7 +9,7 @@ background: /img/posts/background/git.png
 
 ## 1. Git
 
-- [Git](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))의 위키백과 내용입니다.
+- [Git의 위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) 내용입니다.
 
 > `Git`은 컴퓨터 파일의 변경사항을 추적하여 여려명의 사용자 사이에서 작업을 효율적으로 처리하기 위한  `분산 버전 관리 시스템`입니다. 소프트웨어 개발에서 `소스 코드 관리`에서 주로 사용됩니다.
 
@@ -115,3 +115,12 @@ $ git update-git-for-windows
 ![installing-and-updating-git-10](/img/posts/git/installing-and-updating-git-10.png)
 
 - 그럼 끝!
+
+#### 참고
+
+- [위키백과 - GIT](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+- [GIT](https://git-scm.com/)
+- [GIT LFS](https://git-lfs.github.com/)
+- GitHub - git-for-windows
+  - [Symbolic Links](https://github.com/git-for-windows/git/wiki/Symbolic-Links)
+  - [Pull Request #2150](https://github.com/git-for-windows/git/pull/2150)

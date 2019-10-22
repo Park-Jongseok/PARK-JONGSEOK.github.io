@@ -3,12 +3,12 @@ layout: post
 title: "Windows에 Ruby 설치"
 subtitle: "Windows에 Ruby를 설치한다."
 categories: [languages, ruby]
-date: 2019-10-03 00:00:00 +0900
+date: 2019-10-04 08:00:00 +0900
 background: '/img/posts/background/ruby.png'
 ---
 ## 1. Ruby
 
-- [Ruby](https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))의 위키백과 내용입니다.
+- [Ruby의 위키백과](https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)) 내용입니다.
 
 > 루비는 마츠모토 유키히로가 개발한 `동적 객체 지향 스크립트 프로그래밍 언어`입니다.  
 > 루비는 순수 객체 지향 언어이며, 정수나 문자열 등을 포함한 데이터 형식 등 `모든 것이 객체`가 됩니다.  
@@ -75,3 +75,9 @@ $ ruby -v
 - `2.6.5`가 설치되어 있음을 확인할 수 있습니다.
 
 - 그럼 끝!
+
+#### 참고
+
+- [위키백과 - Ruby](https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
+- [Ruby](https://www.ruby-lang.org/ko/downloads/)
+- [Ruby Installer](https://rubyinstaller.org/downloads/)

@@ -243,3 +243,10 @@ NODE_ENV=production
 - 잘 작동하는지 확인하기 위해서, `Pull Request`를 확인합니다.
 
 - 그럼 끝!
+
+#### 참고
+
+- [Probot]](https://probot.github.io/docs/)
+- [GitHub Developer](https://developer.github.com/)
+- [task-list-zero-bot](https://github.com/clarkbw/task-list-zero-bot)
+- [Glitch](https://glitch.com/)
