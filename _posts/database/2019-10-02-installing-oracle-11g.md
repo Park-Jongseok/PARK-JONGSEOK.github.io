@@ -19,7 +19,7 @@ background: '/img/posts/background/oracle.png'
 
 ## 1. Oracle
 
-- [오라클 데이터베이스](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)의 위키백과 내용입니다.
+- [오라클 데이터베이스의 위키백과](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4) 내용입니다.
 
 > 오라클 데이터베이스는 미국 오라클사의 관계형 데이터베이스 관리 시스템의 이름입니다. 현재 Unix 환경에서 가장 널리 사용되는 RDBMS(Relational database management system)입니다.
 
@@ -59,10 +59,12 @@ background: '/img/posts/background/oracle.png'
 
 ![installing-oracle-11g-7](/img/posts/database/installing-oracle-11g-7.png)
 
-- `환경이 최소 요구 사항을 충족하지 않습니다.`라는 경고창이 뜨는데, 그 최소 요구 사항이란 다음과 같습니다.  
+- `환경이 최소 요구 사항을 충족하지 않습니다.`라는 경고창이 뜨는데, 최소 요구 사항이란 다음과 같습니다.  
 
   - tmp 공간 400MB 이상
+
   - Oracle 소프트웨어용 디스크 영역 1.5GB 이상
+  
   - Database 용 디스크 영역 1GB 이상  
 
 - 등 여러 가지 조건이 있는데, 그럼 어떡하나! `무시하고 예`를 클릭하시면 됩니다.
@@ -90,7 +92,9 @@ background: '/img/posts/background/oracle.png'
 - `Oracle Base` : 설치하는 홈 디렉터리입니다.
 
 - `문자 집합` : 문자 코드입니다.
+
   - 기본값으로 `KO16MSWIN949`로 되어 있는데, `한국어/영어`가 주로 사용되고,
+  
   - `특수 기호` 또는 `다른 나라 언어`를 사용하실 경우는 유니코드(AL32 UTF8)를 사용하시면 됩니다.
 
 - `관리자 암호 설정`은 Oracle의 유효성에 따라서, `영어 대문자 1개 이상, 숫자 1개 이상, 9자 이상`입니다.
@@ -108,3 +112,11 @@ background: '/img/posts/background/oracle.png'
 - 마지막 사진을 찍지 않고, 급하게 눌러버려서 마지막 사진은 없습니다. ㅠㅠ
 
 - 그럼 끝!
+
+#### 참고
+
+- [DB ENGINES](https://db-engines.com/en/ranking)
+- 위키백과
+  - [오라클 데이터베이스](https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)
+  - [관계형 데이터베이스](https://ko.wikipedia.org/wiki/%EA%B4%80%EA%B3%84%ED%98%95_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)
+- [Oracle](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html)

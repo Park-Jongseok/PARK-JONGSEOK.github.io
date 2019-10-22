@@ -9,7 +9,7 @@ background: '/img/posts/background/csv.png'
 
 ## 1. CSV(Comma Separated Values)
 
-- [CSV(Comma Separated Values)](https://ko.wikipedia.org/wiki/CSV_(%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D))의 위키백과 내용입니다.
+- [CSV(Comma Separated Values)의 위키백과](https://ko.wikipedia.org/wiki/CSV_(%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)) 내용입니다.
 
 > CSV는 몇 가지 필드를 쉼표(,)로 구분한 텍스트 데이터 및 텍스트 파일입니다. 확장자는 `.csv`이며,  
 > MIME 형식은 text/csv 입니다. comma-separated-variables 라고도 합니다.
@@ -41,3 +41,8 @@ background: '/img/posts/background/csv.png'
 - `CSV` 이외에도 `JSON`, `TSV`, `XML` 형식으로 파일을 전송할 수 있습니다
 
 - 그럼 끝!
+
+#### 참고
+
+- [위키백과 - CSV](https://ko.wikipedia.org/wiki/CSV_(%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D))
+- [Mozilla - MINE 타입](https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types)

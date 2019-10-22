@@ -48,3 +48,7 @@ background: '/img/posts/background/github.png'
 ![creating-pull-request-template-4](/img/posts/git/creating-pull-request-template-4.png)
 
 - 그럼 끝!
+
+#### 참고
+
+- [GitHub - Creating a pull request template for your repository](https://help.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository)
