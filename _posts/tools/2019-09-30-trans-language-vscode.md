@@ -3,7 +3,7 @@ layout: post
 title: "Visual Studio Code, 한글화 방법"
 subtitle: "VSCode의 언어를 영어에서 한글로 변경한다."
 categories: [tools]
-date: 2019-09-30 00:00:00 +0900
+date: 2019-09-30 08:00:00 +0900
 background: '/img/posts/background/vscode.png'
 ---
 

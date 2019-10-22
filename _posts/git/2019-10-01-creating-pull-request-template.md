@@ -3,7 +3,7 @@ layout: post
 title: "Github, Pull request template"
 subtitle: "Github의 Pull request template를 작성한다."
 categories: [git]
-date: 2019-10-01 00:00:00 +0900
+date: 2019-10-01 08:00:00 +0900
 background: '/img/posts/background/github.png'
 ---
 

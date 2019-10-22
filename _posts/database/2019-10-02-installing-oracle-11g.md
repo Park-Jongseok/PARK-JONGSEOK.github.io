@@ -3,7 +3,7 @@ layout: post
 title: "Oracle, 오라클 11g 설치"
 subtitle: "Oracle 11g 버전을 설치한다."
 categories: [database]
-date: 2019-10-02 00:00:00 +0900
+date: 2019-10-02 08:00:00 +0900
 background: '/img/posts/background/oracle.png'
 ---
 

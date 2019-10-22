@@ -3,7 +3,7 @@ layout: post
 title: "Windows에 Ruby 설치"
 subtitle: "Windows에 Ruby를 설치한다."
 categories: [languages, ruby]
-date: 2019-10-03 00:00:00 +0900
+date: 2019-10-04 08:00:00 +0900
 background: '/img/posts/background/ruby.png'
 ---
 ## 1. Ruby
