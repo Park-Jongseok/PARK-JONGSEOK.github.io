@@ -61,8 +61,10 @@ begin
     post.syswrite("date: #{time.strftime('%Y-%m-%d')} #{time.strftime('%H:%M:%S')} #{time.strftime('%z')}\n")
     post.syswrite("background: #{background_path}\n")
     post.syswrite("---\n")
-    post.syswrite("\n## \n")
-    post.syswrite("\n![#{file_name}-1](#{@file_path}#{file_name}-1.png)")
+    post.syswrite("\n## 1. \n")
+    post.syswrite("\n![#{file_name}-1](#{@file_path}#{file_name}-1.png)\n")
+    post.syswrite("\n#### 참고\n")
+    post.syswrite("\n- []()\n")
     puts "File generated"
 rescue => e
     puts e.message

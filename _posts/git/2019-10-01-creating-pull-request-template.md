@@ -3,7 +3,7 @@ layout: post
 title: "Github, Pull request template"
 subtitle: "Github의 Pull request template를 작성한다."
 categories: [git]
-date: 2019-10-01 00:00:00 +0900
+date: 2019-10-01 08:00:00 +0900
 background: '/img/posts/background/github.png'
 ---
 
@@ -48,3 +48,7 @@ background: '/img/posts/background/github.png'
 ![creating-pull-request-template-4](/img/posts/git/creating-pull-request-template-4.png)
 
 - 그럼 끝!
+
+#### 참고
+
+- [GitHub - Creating a pull request template for your repository](https://help.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository)
