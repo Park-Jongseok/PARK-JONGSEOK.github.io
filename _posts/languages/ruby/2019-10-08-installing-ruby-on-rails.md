@@ -109,3 +109,10 @@ $ rails s
 - 안녕! `Ruby on Rails`
 
 - 그럼 끝!
+
+#### 참고
+
+- [위키백과 - Ruby on Rails](https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84_%EC%98%A8_%EB%A0%88%EC%9D%BC%EC%A6%88)
+- [Rails Installer](http://railsinstaller.org/en)
+- [Ruby Installer2](https://github.com/oneclick/rubyinstaller2#install-gems-with-c-extensions-and-additional-library-dependencies)
+- [Stackoverflow - Implications of SIGUSR2 not implemented, signal based restart unavailable](https://stackoverflow.com/questions/42808125/implications-of-sigusr2-not-implemented-signal-based-restart-unavailable)
