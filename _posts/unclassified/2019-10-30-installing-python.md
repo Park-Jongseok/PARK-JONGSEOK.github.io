@@ -15,7 +15,7 @@ background: /img/posts/background/python.png
 
 - `Python`은 `Ruby`와 같이 스크립트 언어로 사용되며, 최근에는 빅데이터의 데이터 분석을 활용하기 위해서 자주 사용된다고 합니다.
 
-- 또한, 프로그래밍을 시작할 때 추천되며, `Django`, `Flask`등의 웹 프레임워크와 함께 사용됩니다.
+- 또한, 프로그래밍을 시작할 때 추천되며 `Django`, `Flask`등의 웹 프레임워크와 함께 사용됩니다.
 
 ## 2. Python 설치
 
@@ -49,4 +49,4 @@ $ python --version
 
 #### 참고
 
-- [Python(https://www.python.org/)
+- [Python](https://www.python.org/)
