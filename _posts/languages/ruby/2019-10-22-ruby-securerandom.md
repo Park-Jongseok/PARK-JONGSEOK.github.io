@@ -28,7 +28,7 @@ SecureRandom.XXX
 SecureRandom.XXX(number)
 ```
 
-- `UUID`를 제외한 다른것들은 `number`를 이용하여, 해당 숫자만큼 난수를 생성할 수 있습니다.
+- `UUID`를 제외한 다른 것들은 `number`를 이용하여, 해당 숫자만큼 난수를 생성할 수 있습니다.
 
 ### 1) hex(Hexadecimal)
 
@@ -43,7 +43,7 @@ SecureRandom.hex(10) #b8e8005860118e3715be
 
 ### 2) base64
 
-- `base64`는 [64진법](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%8A%A464)를 의미합니다.
+- `base64`는 [64진법](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%8A%A464)을 의미합니다.
 
 - 따라서, 생성되는 문자열은 `숫자(0~9)와 문자(a~z, A~Z)와 일부 기호(+, /, =)`를 사용합니다. 
 
