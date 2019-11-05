@@ -91,7 +91,7 @@ Usage: test.rb [options]
 ```ruby
   opts.on('-s', '--string str_value', 'String type  (Default : \'\')') { |v| options[:str] = v}
 ```
-- 기본적으로 옵션을 문자열로 받기 때문에, 위와 같이 작성하시면 됩니다.
+- 기본적으로 인수를 문자열로 받기 때문에, 위와 같이 작성하시면 됩니다.
 
 - `str_value`는 옵션 뒤의 변수를 받기 위한 것이므로, 다른 이름을 사용하셔도 상관없습니다.
 
@@ -113,7 +113,7 @@ Usage: test.rb [options]
   opts.on('-b', '--[no-]boolean', 'Boolean type(Default : false)'){ |v| options[:boolean] = v}
 ```
 
-- 인수가 필요 없는 경우, `boolean`을 이용할 수 있습니다.
+- 인수를 사용하지 않고 값만 필요한 경우에는 `boolean`을 이용할 수 있습니다.
 
 - `default`값에 `false`를 지정해놓았지만, 옵션에 `-b`를 이용한다면 `true`로 표시됩니다.
 
@@ -139,7 +139,7 @@ $ test -a bell,stone,blog # {:array=>["bell", "stone", "blog"]}
   opts.on('-e', '--e enum', [:first, :second, :third], 'Enum values') { |v| options[:enum] = v}
 ```
 
-- `Enum`을 사용하여, 입력받는 것을 제한할 수 있습니다.
+- `Enum`을 사용하여, 입력받는 인수를 제한할 수 있습니다.
 
 - 지정되어있는 `first, second, third` 이외의 것을 입력하면, `InvalidArgument` 에러가 발생합니다.
 
