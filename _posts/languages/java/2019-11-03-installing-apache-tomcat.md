@@ -13,7 +13,9 @@ background: /img/posts/background/tomcat.png
 
 > `Apache Tomcat`은 Java Servlet, Java Server Page, Java WebSocket 기술로 구현된 오픈소스 프로젝트입니다.
 
-- Java Web Application을 구동시키기 위해서, `WAS(Web Application Server)`가 필요한데, 다양한 `WAS`중 `Tomcat`(무료!)을 사용하겠습니다.
+- Java Web Application을 구동시키기 위해서, `WAS(Web Application Server)`가 필요합니다.
+
+- 다양한 WAS 중 무료인! Tomcat을 사용하여 기동시켜보겠습니다.
 
 ## 2. Tomcat 설치
 
@@ -58,6 +60,8 @@ background: /img/posts/background/tomcat.png
   - 만약 체크하시지 않았더라도, 설치 경로의 `Apache Software Foundation\Tomcat 9.0\bin\Tomcat9w.exe`를 실행시켜 접속하면 됩니다.
 
 ![installing-apache-tomcat-](/img/posts/languages/java/installing-apache-tomcat-8.png)
+
+- 설치가 문제없이 되었다면 위와 같이 `Tomcat`을 만날 수 있습니다.
 
 - 그럼 끝!
 
