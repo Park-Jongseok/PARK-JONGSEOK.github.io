@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby OptionParser"
-subtitle: "Ruby OptionParser를 이용하여 POST 생성기를 만든다."
+subtitle: "Ruby OptionParser를 정리한다."
 categories: [ languages, ruby ]
 date: 2019-10-28 13:02:33 +0900
 background: /img/posts/background/ruby.png
@@ -11,9 +11,9 @@ background: /img/posts/background/ruby.png
 
 - [Ruby OptionParser](https://ruby-doc.org/stdlib-2.6.5/libdoc/optparse/rdoc/OptionParser.html)를 참고하여 작성하였습니다. 
 
-- `OptionParser`는 Command 옵션 분석을 위한 클래스입니다. 
+- `OptionParser`는 터미널 등의 커맨드 창에서 입력받은 옵션을 분석하기 위한 클래스입니다. 
 
-- `OptionParser`를 사용하여, 옵션 요약을 출력할 수 있으며, 필수 및 선택요소를 지정할 수 있습니다.
+- `OptionParser`를 사용하여, 실행할 때 필요한 옵션들을 지정할 수 있으며, 요약도 표현할 수 있습니다!
 
 ## 2. Ruby OptionParser 사용법
 
@@ -23,7 +23,7 @@ require 'optparse'
 
 - 상단에 `require`를 입력하여 `OptionParser` 모듈을 호출합니다.
 
-- `Ruby`에서 스크립트에 주어진 인수를 [ARGV](https://ruby-doc.com/core/ARGF.html#method-i-argv)라는 배열로 받을 수 있습니다.
+- `Ruby`에서 스크립트에 주어진 인수를 [ARGV](https://ruby-doc.com/core/ARGF.html#method-i-argv)를 통해 배열로 받을 수 있습니다.
 
 ```console
 $ test.rb test
@@ -63,15 +63,15 @@ p ARGV
 
 - `-h` 또는 `--help`를 입력하면, 옵션에 대한 설명이 자동 생성되어 `console`에 나타납니다.
 
-- `banner`를 설정하여 간단한 `banner`를 작성할 수 있습니다.
+- `banner`를 설정하여 옵션 출력 전 최상단에 간단한 배너를 출력할 수 있습니다.
 
-- `on_head`를 설정하여 간단한 설명을 추가할 수 있습니다.
+- `on_head`를 설정하여 옵션 설명을 추가할 수 있습니다.
 
 ```console
-$ test --help
+$ test.rb --help
 ```
 
-- 콘솔에 입력한 결과입니다.
+- 위의 커맨드를 입력하여, 예시 코드에 설정된 옵션들을 출력해보겠습니다.
 
 ```ruby
 Usage: test.rb [options]
@@ -91,16 +91,16 @@ Usage: test.rb [options]
 ```ruby
   opts.on('-s', '--string str_value', 'String type  (Default : \'\')') { |v| options[:str] = v}
 ```
-- 기본적으로 인수를 문자열로 받기 때문에, 위와 같이 작성하시면 됩니다.
+- 기본적으로 옵션의 인수를 문자열로 받기 때문에, 따로 타입을 설정할 필요는 없습니다.
 
-- `str_value`는 옵션 뒤의 변수를 받기 위한 것이므로, 다른 이름을 사용하셔도 상관없습니다.
+- `str_value`는 옵션 뒤의 변수를 받기 위한 것이므로, 다른 이름을 사용하셔도 괜찮습니다.
 
-  - 변경하시면 `--help` 입력 후 출력형태가 변경됩니다.
+  - 만약, 변경하시면 `--help` 입력 후 해당 변수의 이름이 변경됩니다.
 
 #### ② 숫자
 
 ```ruby
-  opts.on('-i', '--i int_value', Integer, 'Integer type (Default : 0)'){ |v| options[:int] = v}
+opts.on('-i', '--i int_value', Integer, 'Integer type (Default : 0)'){ |v| options[:int] = v}
 ```
 
 - `Integer`를 입력하여, `Type`을 강제할 수 있습니다.
@@ -110,22 +110,22 @@ Usage: test.rb [options]
 #### ③ Boolean
 
 ```ruby
-  opts.on('-b', '--[no-]boolean', 'Boolean type(Default : false)'){ |v| options[:boolean] = v}
+opts.on('-b', '--[no-]boolean', 'Boolean type(Default : false)'){ |v| options[:boolean] = v}
 ```
 
 - 인수를 사용하지 않고 값만 필요한 경우에는 `boolean`을 이용할 수 있습니다.
 
-- `default`값에 `false`를 지정해놓았지만, 옵션에 `-b`를 이용한다면 `true`로 표시됩니다.
+- `default` 값에 `false`를 지정해놓았지만, 옵션에 `-b`를 입력한다면 `true`로 표시됩니다.
 
 - 옵션에 `--no-boolean`을 입력하시면, `false`로 표시됩니다.
 
 #### ④ 배열
 
 ```ruby
-  opts.on('-a', '--a array first, second', Array, 'Array type   (Default : {})') { |v| options[:array] = v}
+opts.on('-a', '--a array first, second', Array, 'Array type   (Default : {})') { |v| options[:array] = v}
 ```
 
-- `Type`을 `Array`로 지정하면 `,(컴마)`를 이용하여 구분지을 수 있습니다.
+- `Type`을 `Array`로 지정하면 `,(컴마)`를 이용하여 구분할 수 있습니다.
 
 ```console
 $ test -a bell,stone,blog # {:array=>["bell", "stone", "blog"]}
