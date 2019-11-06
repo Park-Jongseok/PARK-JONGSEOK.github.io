@@ -5,18 +5,20 @@ time = Time.now
 @post_path = "./_posts/"
 @file_path = "/img/posts/"
 background_path = "/img/posts/background/.png"
-options = {}
+options = {
+    category: 'unclassified'
+}
 
 ## Optional
-OptionParser.new do |opt|
-    opt.on('-c', '--category category') { |o| options[:category] = o}
-    opt.on('-n', '--filename filename') { |o| options[:file_name] = o }
+OptionParser.new do |opts|
+    opts.on('-c', '--category category', [:db, :git, :tools, :ruby, :java], 'Category : db, git, tools, ruby, java') { |o| options[:category] = o}
+    opts.on('-n', '--filename filename', 'filename', 'FileName : xxxx-xxxx') { |o| options[:file_name] = o }
 end.parse!
 
 file_name = options.fetch(:file_name)
 
 ## Category
-def checkCategory(options)
+def check_category(options)
     case options[:category]
         when "db"
             options[:category] = "database"
@@ -38,7 +40,7 @@ def checkCategory(options)
             options[:category] = "languages, java"
             @post_path = "#{@post_path}languages/java/"
             @file_path = "#{@file_path}languages/java/"
-        when nil
+        when "unclassified"
             options[:category] = "unclassified"
             @post_path = "#{@post_path}#{options[:category]}/"
             @file_path = "#{@file_path}#{options[:category]}/"
@@ -49,7 +51,7 @@ end
 
 ## Write Post
 begin
-    checkCategory(options)
+    check_category(options)
     post = File.new("#{@post_path}#{time.strftime('%Y-%m-%d')}-#{file_name}.md", "w+")
     post.syswrite("---\n")
     post.syswrite("layout: post\n")
