@@ -11,24 +11,24 @@ background: /img/posts/background/gradle.png
 
 - [이전 포스트](../../../2019/11/01/installing-gradle.html)에서 `Gradle`을 설치하였습니다.
 
-- 하지만, 하나의 프로젝트에서 여러명이 참여할 경우 `Gradle`의 버전이 달라 문제가 생길 수도 있습니다.
+- 하지만, 하나의 프로젝트에서 여러 명이 참여할 경우 `Gradle`의 버전이 달라 문제가 생길 수도 있습니다.
 
-- 따라서, `Gradle`은 `Gradle Wrapper`를 이용하여, 빌드를 실행하기를 권장합니다.
+- 그렇기 때문에, `Gradle`에서 협업을 할 때, `Gradle Wrapper`를 이용해서 버전을 관리하도록 권장합니다.
 
 ## 2. Gradle Wrapper
 
 - [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)의 설명입니다.
 
-> Gradle 빌드를 실행하는데, 권장되는 방법은 `Gradle Wrapper`를 이용하는 것입니다. `Wrapper`는 `Wrapper`에 선언된 `Gradle`의 버전을 호출하여 필요한 경우 미리 다운로드 하는 스크립트입니다.  
+> Gradle 빌드를 실행하는데, 권장되는 방법은 `Gradle Wrapper`를 이용하는 것입니다. `Wrapper`는 `Wrapper`에 선언된 `Gradle`의 버전을 호출하여 필요한 경우 미리 다운로드하는 스크립트입니다.  
 > 따라서, 개발자는 수동으로 설치를 하지 않고도 `Gradle 프로젝트`를 신속하게 시작하고 실행할 수 있습니다.
 
-- `Wrapper` 파일을 생성하기위해 아래의 커맨드를 입력합니다.
+- `Wrapper` 파일을 생성하기 위해 아래의 커맨드를 입력합니다.
 
 ```console
 $ gradle wrapper
 ```
 
-- 프로젝트의 경로(`gradle/wrapper`)에 `gradle-wrapper.properties`라는 속성파일이 생성됩니다.
+- 프로젝트의 경로(`gradle/wrapper`)에 `gradle-wrapper.properties`라는 속성 파일이 생성됩니다.
 
 ```properties
 distributionBase=GRADLE_USER_HOME
@@ -70,7 +70,7 @@ zipStoreBase=GRADLE_USER_HOME
 zipStorePath=wrapper/dists
 ```
 
-- 생성된 `gradle-wrapper.properties`의 내용을 확인해보면, `distributionUrl`의 버전이 `5.6.4`로 바뀐것을 확인할 수 있습니다.
+- 생성된 `gradle-wrapper.properties`의 내용을 확인해보면, `distributionUrl`의 버전이 `5.6.4`로 변경된 것을 확인할 수 있습니다.
 
 ```console
 $ gradlew.bat build
@@ -86,7 +86,7 @@ $ gradlew build
 
 ![upgrade-gradle-3](/img/posts/languages/java/upgrade-gradle-3.png)
 
-- 위의 사진을 참고하시면 `gradle -v`와 `gradlew -v`의 `gradle`버전이 다른것을 확인할 수 있습니다.
+- 위의 사진을 참고하시면 `gradle -v`와 `gradlew -v`의 `gradle`버전이 다른 것을 확인할 수 있습니다.
 
 - 그럼 끝!
 
