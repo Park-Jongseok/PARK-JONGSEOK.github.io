@@ -5,7 +5,7 @@
 
 ## :black_nib: Post 작성 방법
 ```
-makepost -n {파일명} -c {카테고리명}
+python makepost.py category title
 ```
 
 ## :rainbow: rouge highlight
