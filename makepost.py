@@ -15,7 +15,7 @@ def make_path(category):
     if category =='java' or category =='ruby' :
         post_path = post_path + languages + '/' + category + '/'
         file_path = file_path + languages + '/' + category + '/'
-        category = "[ " + languages + category + ' ]'
+        category = "[ " + languages + ', ' +category + ' ]'
     else:
         post_path = post_path + category + '/'
         file_path = file_path + category + '/'
