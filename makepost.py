@@ -7,8 +7,8 @@ from pytz import timezone
 def make_path(category):
 
     post_path = './_posts/'
-    file_path = './img/posts/'
-    background_path = './img/posts/background/.png'
+    file_path = '/img/posts/'
+    background_path = '/img/posts/background/.png'
     languages = 'languages'
     
 
