@@ -4,7 +4,7 @@ title: "IntelliJ에서 Android 항목이 없을 때"
 subtitle: "새 프로젝트에 Android를 추가한다."
 categories: unclassified
 date: 2021-08-21 17:51:55 +0900
-background: ./img/posts/background/when-there-are-no-android-content-in-intellij.png
+background: /img/posts/background/when-there-are-no-android-content-in-intellij.png
 ---
 
 ## 1. IntelliJ에서 새 프로젝트 목록에 Android가 없을 때
@@ -13,7 +13,7 @@ background: ./img/posts/background/when-there-are-no-android-content-in-intellij
 
 ![when-there-are-no-android-content-in-intellij-1](/img/posts/unclassified/when-there-are-no-android-content-in-intellij-1.png)
 
-- 원래라면 빨간 사각형 안에 있어야하는데... 아마도, 제가 `IntelliJ`를 설치할 때 `Android` 개발은 하지 않을거라고 생각하고 따로 설치하지 않았기 떄문일겁니다.
+- 원래라면 빨간 사각형 안에 있어야하는데... 아마도, 제가 `IntelliJ`를 설치할 때 `Android` 개발은 하지 않을거라고 생각하고 따로 설치하지 않았기 때문일겁니다.
 
 ![when-there-are-no-android-content-in-intellij-2](/img/posts/unclassified/when-there-are-no-android-content-in-intellij-2.png)
 
